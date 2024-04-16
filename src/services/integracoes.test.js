@@ -1,7 +1,7 @@
-import api from './api'
+import api from './api';
 import { buscaTransacoes } from "./transacoes";
 
-jest.mock('./api')
+jest.mock('./api');
 
 const mockTransacao = [
     {
@@ -30,7 +30,6 @@ const mockRequisicaoErro = () => {
         }, 200)
     })
 }
-
 
 describe("Requisições para a API", () => {
     test("Deve retornar uma lista de transações", async () => {
