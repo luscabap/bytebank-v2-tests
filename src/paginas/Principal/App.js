@@ -5,7 +5,6 @@ import { atualizaSaldo } from '../../services/saldo';
 import useListaTransacoes from '../../hooks/useListaTransacoes';
 import useSaldo from '../../hooks/useSaldo';
 import estilos from './App.module.css';
-
 import Cabecalho from '../../componentes/Cabecalho';
 import Extrato from '../../componentes/Extrato';
 import Menu from '../../componentes/Menu';
